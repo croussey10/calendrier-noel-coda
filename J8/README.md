@@ -12,7 +12,7 @@ ORDER BY nice_score DESC
 LIMIT 38 
 ```
 
-Ensuite on exporte le tableau en CSV puis on traduit chaque coordonée qui sont actuellement en Lambert pour les traduires en GPS25
+Ensuite on exporte le tableau en CSV puis on traduit chaque coordonée qui sont actuellement en Lambert pour les traduires en EPSG:3857
 
 voici le resultat après convertion :
 
